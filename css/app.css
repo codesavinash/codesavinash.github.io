@@ -6,24 +6,33 @@
 
 }
 .red {
-    color: #f00;
+    color: #00B4D8;
     font-weight: 700;
 
 }
 
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130px;
+}
+
 body {
     font-size: 1.6em;
-    background-attachment: #444;
-    color: #fff;
+    background-color: #03045E;
+    color: #CAF0F8;
 }
 
 header {
     width: 100%;
     height: 600px;
-    background: linear-gradient(#fff, #999);
+    background: url('../assets/images/pexels-pixabay-268415.jpg');
+
     text-align: center;
     padding-top: 200px;
-    text-shadow: 3px 3px 7px #777;
+    text-shadow: 3px 3px 7px #0077B6;
 
 
 }
@@ -38,11 +47,27 @@ header {
         width: 50%;
         height: 900px;
         padding: 25px 50px;
+        padding-top: 50px;
+        
         float: left;
-        background: #00f;
+        background: #0077B6;
+        font-size: 1.3em;
+ }
+    #aboutLeft > p {
+        margin: 20px;
 
 
     }
+        #bioPic {
+            width: 350px;
+            border-radius: 50%;
+            border: 4px solid #444;
+            float: left;
+            margin-right: 60px;
+            margin-bottom: 50px;
+
+            
+        }
 
         #aboutRight{
 
@@ -50,13 +75,13 @@ header {
         height: 900px;
         padding: 25px 50px;
         float: left;
-        background: #f00;
+        background: #90E0EF;
     }
 footer{
     width: 100%;
     height: 100px;
     text-align: center;
     padding-top: 18px;
-    background: #000;
+    background: #023E8A;
     font-size: 0.9em;
 }    
